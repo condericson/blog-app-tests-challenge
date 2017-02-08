@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: N0ADuxPwAkwVwNgnzpgMHh+bkMLfAEc4PN7UVu1Khy+cRyEppqRow3WdMGf74A50AoJnzVlQz9w2qlsubhmA7qSnduYDNhK+8c6aFGXy+J7i4j+wFwLrNL8xxnqTRzWaoeeBfsKiQcRMOqmG1SnCj1DiUaKjeKzmFxhn1gTX3AOVLbuEtTx7yficmbEQUWY5/ySLNceXvzlUkrvf+ODSzkiZXXp0BDxKwRvU0iCtDRwmE7AtcfwljKawbvaiNsFPKv6IeJckDBdIDNumacFiRTrcBw0xlIfbF3SVHTUX1rEgdvNTf/sj0uhud4GLnWMFJE4OQV3bLCLol6qcs3prDHjWKwWfX8Pezm42DO6WtL+x1MLn08AC0XHgAP/mH42/Y1JwVXiW8PZR608X+bVX02JomgX5pDirQtzveB6yKI6L3p4uVMNoNY/9pZoobNMaGOWE0eL2uby9B5/HPSNcc3wbn1n4QEPcCXDZFD2UhB+AMMBMzCeWoVE991xPDkI/RqzXRpHdU3dO7eP6T2+9anfmVzvVgma1Fv97f5T3+Pe67Nd1Hycm75HlVQhZsbLMijf2JE8RO0PC1MfCeCBrPK9PRaW7m1XcgSOenpLmRVuUtqU0WHWjJIgI1q1s065kYCX5BKFio5uyonWq8H3mWZGkDT4rxz5atPwp+eIZPlA=
+  app: blog-app-tests-challenge
+  on:
+    repo: condericson/blog-app-tests-challenge
