@@ -1,11 +1,10 @@
 language: node_js
 node_js: node
-services:
-- mongodb
+services: mongodb
 deploy:
   provider: heroku
   api_key:
     secure: YmNe8xQ3TLQ1nGxAqtMK4e5gUi7wjTJHRmLSlhHxQyF/VIkz9zeYGuD93Pgw07kuxFypiMRggMCwXZGUaCdIAtMamRHgQcEnMs6N/NJ3OuiSwSGZow90aKknoiW68DorQSj/0rgoG4iyFyp6OdKnn8CVov8+DQWwFxJqFuMQzUWYRINBwNNybZu6icsMFYUBr0QMPY0t9wg8lQonaScX8KU46K0q16sS2LgneZUt2ZJbMw5HFLyw3otcWPRFp+noq7WouOqaHA38t5ml/Qj8d9wQp5KOXDUYasvXf//1+YeAZKk4CR17ta6JLFrEKKMlava3GDHUztVLKDxB4rEEj8HBf66zFbS1l90iNuE50aGspoS7XNwYPVgq9iS8Hvh1DgQReg7ASjJa2mBp9J/rA6leJ1fbHqPvVu//uNa2u9bzy5FodfZGHqzuM9YDF8z59HfOzR5Mky/VmK6xEi2HdJdHrHPwmMrOJcnlk8buBiRZeH11N+GcQ7PerZ1rQNCL01gFbOGmBOzxfqH1y1rCaF1EcWdmZybqXCL/S7iLRqynpDxLcgc+a3ivuYUVErS4cE9k1Ywzb3rrijOtubEuxHZEMn26ko5lbvyd2LtBhagChOi2jAB/OwPc6ks8jEDrdCse1Z5iKhwkAWYKXPzlPbaBRrsEg6qXd12d8AObK90=
-  app: blog-app-tests-challenge
+  app: tranquil-castle-42329
   on:
     repo: condericson/blog-app-tests-challenge
